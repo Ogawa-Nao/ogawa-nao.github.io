@@ -27,9 +27,11 @@ Division of Mathematical and Physical Sciences, Graduate School of Natural Scien
 ## Contact
 
 Student Room: 206, Natural Science and Technology Hall 5
+
 Email: n.ogawa0213 [at] stu.kanazawa-u.ac.jp
 
 ## Address
 
 Room 206, Natural Science and Technology Hall 5, Kakuma-machi, Kanazawa-shi, Ishikawa 920-1192, Japan
+
 〒920-1192　石川県金沢市角間町　自然科学5号館206号室
