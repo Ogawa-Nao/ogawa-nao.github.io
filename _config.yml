@@ -5,9 +5,9 @@ logo:
 owner:
   name: "Naohiko Ogawa"
   avatar: 
-  bio: "Graduate student at Kanazawa University"
+  bio: "金沢大学自然科学研究科 修士課程2年"
   website: 
-  email: "n.ogawa0213[at]stu.kanazawa-u.ac.jp"
+  email: "n.ogawa0213@stu.kanazawa-u.ac.jp"
   twitter: #x id
   linkedin: #linkedin id
   github: "Ogawa-Nao"
@@ -31,7 +31,7 @@ lowlight-color: '#1F2937' #UR navy
   # NOTE: If you would like your site to be licensed under a creative commons license, uncomment the 'yes' next to the type of license you wish to use.
 creative-commons:
   cc-by: #yes
-  cc-by-nc: yes
+  cc-by-nc: #yes
 
 #DO NOT EDIT BEYOND THIS POINT
 # Jekyll configuration
