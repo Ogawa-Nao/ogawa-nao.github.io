@@ -1,9 +1,14 @@
 ---
 layout: home
+title: Naohiko Ogawa
 excerpt: "Naohiko Ogawa's website"
+lang: en
+ja_url: /
+en_url: /en/
+permalink: /en/
 ---
 
-# 小川 尚比古  (Naohiko OGAWA)
+# Naohiko OGAWA
 
 2nd-year Master's student,
 Division of Mathematical and Physical Sciences, Graduate School of Natural Science and Technology, Kanazawa University

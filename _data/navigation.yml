@@ -1,9 +1,11 @@
-# Site navigation links
 - title: Home
-  url: /
+  ja_url: /
+  en_url: /en/
 
 - title: CV
-  url: /resume/
+  ja_url: /jp/resume/
+  en_url: /en/resume/
 
 - title: Talks
-  url: /talks/
+  ja_url: /jp/talks/
+  en_url: /en/talks/

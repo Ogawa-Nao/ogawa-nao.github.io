@@ -1,6 +1,10 @@
 ---
 title: Talks
 layout: page
+lang: ja
+ja_url: /jp/talks/
+en_url: /en/talks/
+permalink: /jp/talks/
 ---
 
 ## 2026

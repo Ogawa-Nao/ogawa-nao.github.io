@@ -1,28 +1,53 @@
 <div class="navigation-wrapper">
-	<div class="site-name">
-		{% if site.logo %}
-		<a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/images/{{ site.logo }} " style="width: 100%"></a>
-		{% else %}
-		<a href="{{ site.github.url }}/">{{ site.title }}</a>
-		{% endif %}
-	</div><!-- /.site-name -->
-	<div class="top-navigation">
-		<nav role="navigation" id="site-nav" class="nav">
-		    <ul>
-		        {% for link in site.data.navigation %}
-				    {% if link.url contains 'http' %}
-				        {% assign domain = '' %}
-				        {% else %}
-				        {% assign domain = site.github.url %}
-				    {% endif %}
-				    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-				{% endfor %}
-		    </ul>
-		</nav>
-	</div><!-- /.top-navigation -->
-	<div class="feedback">
-		<a target="_blank" href="https://github.com/rochester-rcl/rochester-rcl.github.io/issues/new">
-			Report an Issue
-		</a>
-	</div>
-</div><!-- /.navigation-wrapper -->
+  <div class="site-name">
+    {% if site.logo %}
+      <a href="{{ site.github.url }}/">
+        <img src="{{ site.github.url }}/images/{{ site.logo }}" style="width: 100%">
+      </a>
+    {% else %}
+      <a href="{{ site.github.url }}/">{{ site.title }}</a>
+    {% endif %}
+  </div>
+
+  <div class="top-navigation">
+    <nav role="navigation" id="site-nav" class="nav">
+      <ul>
+        {% for link in site.data.navigation %}
+          {% if page.lang == "en" %}
+            {% assign current_url = link.en_url %}
+          {% else %}
+            {% assign current_url = link.ja_url %}
+          {% endif %}
+
+          <li>
+            <a href="{{ site.github.url }}{{ current_url }}">
+              {{ link.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+
+  <div class="language-switcher" aria-label="Language switcher">
+    {% if page.lang == "en" %}
+      <a
+        class="language-switch language-switch--en"
+        href="{{ site.github.url }}{{ page.ja_url }}"
+        aria-label="日本語に切り替える">
+        <span class="language-switch__icon" aria-hidden="true">🌐</span>
+        <span class="language-switch__option">JP</span>
+        <span class="language-switch__option language-switch__option--active">EN</span>
+      </a>
+    {% else %}
+      <a
+        class="language-switch language-switch--ja"
+        href="{{ site.github.url }}{{ page.en_url }}"
+        aria-label="Switch to English">
+        <span class="language-switch__icon" aria-hidden="true">🌐</span>
+        <span class="language-switch__option language-switch__option--active">JP</span>
+        <span class="language-switch__option">EN</span>
+      </a>
+    {% endif %}
+  </div>
+</div>

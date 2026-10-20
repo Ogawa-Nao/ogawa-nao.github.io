@@ -75,3 +75,63 @@
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
 	@include transition(all .2s ease);
 }
+
+/* Language switcher
+   ========================================================================== */
+
+.navigation-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.top-navigation {
+  flex: 1;
+}
+
+.language-switcher {
+  margin-left: auto;
+  padding-left: 1em;
+  white-space: nowrap;
+}
+
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2em;
+  min-height: 2em;
+  padding: 0.15em 0.25em;
+  border: 1px solid $bordercolor;
+  border-radius: 999px;
+  background-color: #fff;
+  color: $textcolor;
+  font-size: 0.8em;
+  line-height: 1;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.language-switch:hover,
+.language-switch:focus {
+  border-color: $highlightcolor;
+  background-color: lighten($highlightcolor, 45%);
+  text-decoration: none;
+}
+
+.language-switch__icon {
+  margin: 0 0.15em 0 0.1em;
+  font-size: 1em;
+}
+
+.language-switch__option {
+  display: inline-block;
+  padding: 0.45em 0.55em;
+  border-radius: 999px;
+  color: $textcolor;
+  font-weight: normal;
+}
+
+.language-switch__option--active {
+  background-color: $lowlightcolor;
+  color: #fff;
+  font-weight: bold;
+}

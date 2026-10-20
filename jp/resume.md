@@ -1,9 +1,13 @@
 ---
 title: Curriculum Vitae
 layout: resume
+lang: ja
+ja_url: /jp/resume/
+en_url: /en/resume/
+permalink: /jp/resume/
 ---
 
-## Education / 学歴
+## 学歴
 
 `April 2018 – March 2021`
 
@@ -26,7 +30,7 @@ __Division of Mathematical and Physical Sciences, Graduate School of Natural Sci
 Supervisor: Associate Professor Koya Sakakibara  
 指導教員：榊原 航也 准教授
 
-## Teaching Experience / 教育活動
+## 教育活動
 
 `Academic Year 2026`
 
@@ -36,7 +40,7 @@ Teaching Assistant (TA)
 - Calculus I A（微分積分学ⅠA, Q1）
 - Calculus I B（微分積分学ⅠB, Q2）
 
-## Volunteer and Outreach Activities / ボランティア・社会貢献活動
+## ボランティア・社会貢献活動
 
 `Academic Year 2025`
 
@@ -52,14 +56,14 @@ Reviewer
 Reviewer（審査員）  
 January 14, 2026
 
-## Fellowship / フェローシップ
+## フェローシップ
 
 `April 2025 – Present`
 
 __Preliminary Selection for the Kanazawa University Strategic Project for the Development of Doctoral Students and Research Promotion__  
 博士研究人材支援・研究力強化戦略プロジェクト予約採用
 
-## Travel Record in Foreign Countries / 海外出張記録
+## 海外出張記録
 
 `August 23, 2025 – September 1, 2025`
 
