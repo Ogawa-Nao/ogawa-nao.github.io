@@ -1,5 +1,7 @@
-{% if page.author %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+{% if page.lang == "en" %}
+  {% assign author = site.owner_en %}
+{% else %}
+  {% assign author = site.owner_ja %}
 {% endif %}
 
 <div class="itemscope" itemscope itemtype="https://schema.org/Person">

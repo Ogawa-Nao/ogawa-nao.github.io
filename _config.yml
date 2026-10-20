@@ -2,13 +2,12 @@ title: "Naohiko Ogawa"
 locale: ja_JP
 logo: 
 
-owner:
-  name: "Naohiko Ogawa"
+owner_ja:
+  name: "小川 尚比古"
   avatar: 
-  bio: "金沢大学自然科学研究科 修士課程2年"
+  bio: "金沢大学自然科学研究科<br>修士課程2年"
   website: 
   email: "n.ogawa0213@stu.kanazawa-u.ac.jp"
-  twitter: #x id
   linkedin: #linkedin id
   github: "Ogawa-Nao"
   orcid: #orcid id
@@ -19,9 +18,24 @@ owner:
     analytics:
     verify:
     scholar: #google scholar 'user' id 
-  facebook: 
-  instagram: 
-  youtube: 
+
+owner_en:
+  name: "Naohiko Ogawa"
+  avatar: 
+  bio: "2nd-year master's student,<br>Kanazawa University"
+  website: 
+  email: "n.ogawa0213@stu.kanazawa-u.ac.jp"
+  linkedin: #linkedin id
+  github: "Ogawa-Nao"
+  orcid: #orcid id
+  researchgate: #researchgate username 
+  mendeley: #mendeley username 
+  google:
+    plus: #username
+    analytics:
+    verify:
+    scholar: #google scholar 'user' id 
+
 
 # The following adjust the accents for your site. If you would like to further edit colors, fonts, font sizes, etc.
 # you may do so in _sass/variables.scss
