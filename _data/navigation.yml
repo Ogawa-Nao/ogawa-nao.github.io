@@ -1,0 +1,9 @@
+# Site navigation links
+- title: Home
+  url: /
+
+- title: CV
+  url: /resume/
+
+- title: Talks
+  url: /talks/

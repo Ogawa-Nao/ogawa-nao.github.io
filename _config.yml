@@ -1,0 +1,57 @@
+title: "Naohiko Ogawa"
+locale: ja_JP
+logo: 
+
+owner:
+  name: "Naohiko Ogawa"
+  avatar: 
+  bio: "Graduate student at Kanazawa University"
+  website: 
+  email: "n.ogawa0213[at]stu.kanazawa-u.ac.jp"
+  twitter: #x id
+  linkedin: #linkedin id
+  github: "Ogawa-Nao"
+  orcid: #orcid id
+  researchgate: #researchgate username 
+  mendeley: #mendeley username 
+  google:
+    plus: #username
+    analytics:
+    verify:
+    scholar: #google scholar 'user' id 
+  facebook: 
+  instagram: 
+  youtube: 
+
+# The following adjust the accents for your site. If you would like to further edit colors, fonts, font sizes, etc.
+# you may do so in _sass/variables.scss
+highlight-color: '#2F5D8C' #UR gold
+lowlight-color: '#1F2937' #UR navy
+
+  # NOTE: If you would like your site to be licensed under a creative commons license, uncomment the 'yes' next to the type of license you wish to use.
+creative-commons:
+  cc-by: #yes
+  cc-by-nc: yes
+
+#DO NOT EDIT BEYOND THIS POINT
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
