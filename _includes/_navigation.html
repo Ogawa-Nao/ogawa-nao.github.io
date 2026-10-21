@@ -19,8 +19,17 @@
             {% assign current_url = link.ja_url %}
           {% endif %}
 
-          <li>
-            <a href="{{ site.github.url }}{{ current_url }}">
+          {% if page.url == current_url %}
+            {% assign active_class = "active" %}
+            {% assign aria_current = "page" %}
+          {% else %}
+            {% assign active_class = "" %}
+            {% assign aria_current = nil %}
+          {% endif %}
+
+          <li class="{{ active_class }}">
+            <a href="{{ site.github.url }}{{ current_url }}"
+               {% if aria_current %}aria-current="{{ aria_current }}"{% endif %}>
               {{ link.title }}
             </a>
           </li>

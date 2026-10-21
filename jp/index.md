@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Naohiko Ogawa
+title: Home
 excerpt: "小川尚比古のホームページ"
-lang: jp
+lang: ja
 ja_url: /
 en_url: /en/
 permalink: /
@@ -10,33 +10,30 @@ permalink: /
 
 # 小川尚比古
 
-2nd-year Master's student,
-Division of Mathematical and Physical Sciences, Graduate School of Natural Science and Technology, Kanazawa University
+<div class="compact-block">
+  <div>金沢大学 大学院自然科学研究科　数物科学専攻 博士前期課程2年</div>
+  <ul>
+    <li>計算科学コース</li>
+    <li>サステナブル理工学プログラム</li>
+  </ul>
+</div>
 
-金沢大学 大学院自然科学研究科　数物科学専攻 博士前期課程2年
-- 計算科学コース  
-- サステナブル理工学プログラム
+## 研究内容 / キーワード
 
-## Research Interests / keywords
+<ul class="compact-list">
+  <li>
+    界面運動の数値解析（例：移動境界問題，幾何学流）
+    <ul>
+      <li>移動境界問題への機械学習的アプローチ</li>
+    </ul>
+  </li>
+  <li>機械学習，深層学習</li>
+</ul>
 
-- Numerical analysis of interface motion (e.g. Moving boundary problems, Geometric flows)
- （界面運動の数値解析）
-    - e.g. Machine Learning-based approach to moving boundary problems
-      （移動境界問題への機械学習的アプローチ）
-- Machine learning, Neural Network
-  （機械学習，深層学習）
-    - e.g. Kernel methods RKHS
-      （カーネル法，再生核ヒルベルト空間）
+## 連絡先
 
-
-## Contact
-
-Student Room: 206, Natural Science and Technology Hall 5
-
-Email: n.ogawa0213 [at] stu.kanazawa-u.ac.jp
-
-## Address
-
-Room 206, Natural Science and Technology Hall 5, Kakuma-machi, Kanazawa-shi, Ishikawa 920-1192, Japan
-
-〒920-1192　石川県金沢市角間町　自然科学5号館206号室
+<div class="compact-block">
+  <div>学生室: 自然科学5号館 206号室</div>
+  <div>Email: n.ogawa0213 [at] stu.kanazawa-u.ac.jp</div>
+  <div>Address: 〒920-1192　石川県金沢市角間町　自然科学5号館206号室</div>
+</div>

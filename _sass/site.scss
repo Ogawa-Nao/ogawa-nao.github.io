@@ -135,3 +135,41 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
   color: #fff;
   font-weight: bold;
 }
+/* Active navigation item
+   ========================================================================== */
+
+#site-nav li.active > a {
+  color: $highlightcolor;
+  font-weight: bold;
+}
+
+#site-nav li.active > a:hover,
+#site-nav li.active > a:focus {
+  color: $lowlightcolor;
+}
+/* Compact blocks
+   ========================================================================== */
+
+.compact-block {
+  margin: 0 0 1.5em 0;
+
+  > div {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  ul {
+    margin-top: 0.15em;
+    margin-bottom: 0;
+  }
+}
+
+.compact-list {
+  margin-top: 0.25em;
+  margin-bottom: 1.5em;
+
+  ul {
+    margin-top: 0.15em;
+    margin-bottom: 0;
+  }
+}

@@ -1,10 +1,15 @@
 # Naohiko Ogawa's Website
 
-This repository contains the source files for my academic website:
+This repository contains the source files for my website:
 
 https://ogawa-nao.github.io/
 
 The website is built with Jekyll and GitHub Pages.
+
+This repository is based on a simple, well designed template by University of Rochester - River Campus Libraries.
+This template can be found at:
+
+https://github.com/rochester-rcl/rochester-rcl.github.io
 
 ## Local development
 
