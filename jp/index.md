@@ -8,7 +8,7 @@ en_url: /en/
 permalink: /
 ---
 
-# 小川尚比古
+# 小川尚比古  (Naohiko OGAWA)
 
 <div class="compact-block">
   <div>金沢大学 大学院自然科学研究科　数物科学専攻 博士前期課程2年</div>
